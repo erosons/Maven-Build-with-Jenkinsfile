@@ -37,7 +37,7 @@ pipeline  {
                  junit '**/target/*.xml'
              }
                failure {
-                  mail to: iskidet@gmail.com, subject: 'The Pipeline failed :('
+                  mail to: me@gmail.com, subject: 'The Pipeline failed :('
                }
         }
         /*Deploymnet phase*/
