@@ -1,1 +1,27 @@
 
+pipeline {
+    agent any
+
+    stages {
+        stage('repo clone) {
+            steps {
+                git crdentialsId: 'git_credential', url: 'https://github.com/erosons/demo.git'
+            }
+        }
+        stage('Buid Step) {
+            steps {
+                sh 'mvn clean install'
+            }
+        }
+        stage('Deploy') {
+            steps {
+                echo 'Deploying....'
+            }
+        }
+        stage('Deploy') {
+            steps {
+                echo 'Deploying....'
+            }
+       }
+        }
+    }
