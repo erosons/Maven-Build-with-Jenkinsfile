@@ -30,15 +30,12 @@ pipeline  {
                 */
                 sh 'make check'
             }
-        }
          /* In case of failure */
-        post {
+          post {
              always {
                  junit '**/target/*.xml'
              }
-               failure {
-                  mail to: me@gmail.com, subject: 'The Pipeline failed :('
-               }
+           }
         }
         /*Deploymnet phase*/
         stage('Deploy') {
