@@ -16,7 +16,7 @@ pipeline  {
                 label 'Slave1' /* Specifying on which agent the job should run */
             }
             steps {
-                sh 'mvn clean install'
+                sh 'mvn clean package'
             }
         }
         /* Testing stage with Junit */
