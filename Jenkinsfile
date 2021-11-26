@@ -31,12 +31,6 @@ pipeline  {
                  */
                 sh 'echo  Building test script'
             }
-         /* In case of failure 
-          post {
-             always {
-                 junit '**/target/*.xml'
-             }
-           } */
         }
        
         /*Deploymnet phase*/
