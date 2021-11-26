@@ -48,6 +48,11 @@ pipeline  {
             steps {
                 sh 'make publish'
             }
-        }
+            post {
+                success {
+                     archiveArtifacts 'target/*.jar'
+                }
+            }
+        }  
     }
 }
