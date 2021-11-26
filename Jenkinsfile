@@ -29,7 +29,7 @@ pipeline  {
                 * using sh 'make check || true', if `true` to allow the Pipeline to continue nonetheless 
                 sh  'mvn test'
                  */
-                sh 'echo "Building test script"
+                sh 'echo  Building test script'
             }
          /* In case of failure */
           post {
