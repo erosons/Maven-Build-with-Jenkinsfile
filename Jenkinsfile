@@ -28,7 +28,7 @@ pipeline  {
                 /* `make check` returns non-zero on test failures,
                 * using sh 'make check || true', if `true` to allow the Pipeline to continue nonetheless
                 */
-                sh  './mvn test'
+                sh  'mvn test'
             }
          /* In case of failure */
           post {
