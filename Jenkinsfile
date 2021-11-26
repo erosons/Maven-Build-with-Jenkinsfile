@@ -36,9 +36,9 @@ pipeline  {
              always {
                  junit '**/target/*.xml'
              }
-           }
+           } */
         }
-        */
+       
         /*Deploymnet phase*/
         stage('Deploy') {
             agent any
