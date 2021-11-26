@@ -42,7 +42,7 @@ pipeline  {
                 }
             }
             steps {
-                sh 'mvn publish'
+                sh 'mvn package'
             }
             post {
                 success {
