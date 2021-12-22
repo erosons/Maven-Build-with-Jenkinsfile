@@ -77,11 +77,5 @@ f.	Startup the Tomcat Server from the EC2 public DNS on port 8090 -> http://00.2
     See Jenkinsfile in the Git repository: https://github.com/erosons/demo
 
  I ran the build a shown below, my Test is still failing but working on it.
-
-
-
-
-
-
-  
+ 
 ![image](https://user-images.githubusercontent.com/73761240/147131688-d275c86f-5cb0-4d50-9d4c-268f6d09fa95.png)
