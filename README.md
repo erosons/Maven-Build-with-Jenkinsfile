@@ -1,6 +1,4 @@
 
-
-
 Project Scope:
 
 -	To set up SCM repository in GitHub to manage the code for Maven App
@@ -18,6 +16,7 @@ a.	provisioning of EC2 instances and setting up Jenkins on the instances
 b.	I setup the Configuration for Maven  and jdk in the Global Tool configuration
 
 ![image](https://user-images.githubusercontent.com/73761240/147131783-5d4b5689-0188-4f74-a145-e48f171a3ad2.png)
+
 ![image](https://user-images.githubusercontent.com/73761240/147131842-ec7a1140-52cb-461f-b884-3a37f3d2bf41.png)
 
 Step 3 : Set up Master Slaves Nodes
@@ -39,6 +38,7 @@ Repeated the step above for the second Slave Node
 
 
 The three EC2 Instances are all configured on Master-worker/slave Architecture
+
 ![image](https://user-images.githubusercontent.com/73761240/147131894-e05a72db-78bc-4489-bc21-6d2bc32097a8.png)
 
 Step4: Provision a Tomcat webserver
